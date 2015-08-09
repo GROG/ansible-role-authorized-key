@@ -1,0 +1,14 @@
+---
+
+- name: Manage authorized keys
+  authorized_key:
+    exclusive: "{{ item.1.exclusive | default(authorized_key_exclusive) }}"
+    key: "{{ item.1.key }}"
+    key_options: "{{ item.1.key_options | default(authorized_key_key_options) }}"
+    manage_dir: "{{ item.1.manage_dir | default(authorized_key_manage_dir) }}"
+    path: "{{ item.1.path | default(omit) }}"
+    state: "{{ item.1.state | default(authorized_key_state) }}"
+    user: "{{ item.0.name }}"
+  with_subelements:
+    - "{{ authorized_key_list_all | selectattr('authorized_keys', 'defined') | list }}"
+    - authorized_keys

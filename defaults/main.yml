@@ -1,0 +1,25 @@
+---
+
+# List of users and there keys
+authorized_key_list: []
+
+# List of users and there keys
+authorized_key_list_host: []
+
+# List of users and there keys
+authorized_key_list_group: []
+
+# Default value for exclusive
+authorized_key_exclusive: no
+
+# Default value for key_options
+authorized_key_key_options: ''
+
+# Default value for manage_dir
+authorized_key_manage_dir: yes
+
+# Default value for path
+#authorized_key_path: omit
+
+# Default value for state
+authorized_key_state: present

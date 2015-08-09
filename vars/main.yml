@@ -1,0 +1,3 @@
+---
+
+authorized_key_list_all: "{{ authorized_key_list + authorized_key_list_host + authorized_key_list_group }}"
