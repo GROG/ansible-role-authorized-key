@@ -1,6 +1,6 @@
 # Authorized-key
 
-[![Ansible Galaxy](http://img.shields.io/badge/galaxy-GROG.authorized--key-660198.svg?style=flat)](https://galaxy.ansible.com/list#/roles/)
+[![Ansible Galaxy](http://img.shields.io/badge/galaxy-GROG.authorized--key-660198.svg?style=flat)](https://galaxy.ansible.com/list#/roles/4737)
 [![Build Status](https://travis-ci.org/GROG/ansible-role-authorized-key.svg?branch=master)](https://travis-ci.org/GROG/ansible-role-authorized-key)
 
 A role for managing authorized keys.
