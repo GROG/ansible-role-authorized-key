@@ -13,9 +13,9 @@ A role for managing authorized keys.
 
 | Variable | Description | Default value |
 |----------|-------------|---------------|
-| `authorized_key_list` | List of users and there keys **(see details!)** | `[]` |
-| `authorized_key_list_host`| List of users and there keys **(see details!)**  | `[]` |
-| `authorized_key_list_group` | List of users and there keys **(see details!)** | `[]` |
+| `authorized_key_list` | List of users and their keys **(see details!)** | `[]` |
+| `authorized_key_list_host`| List of users and their keys **(see details!)**  | `[]` |
+| `authorized_key_list_group` | List of users and their keys **(see details!)** | `[]` |
 | `authorized_key_exclusive` | Default value for `exclusive` | `no` |
 | `authorized_key_key_options` | Default value for `key_options` | / |
 | `authorized_key_manage_dir` | Default value for `manage_dir` | `yes` |
