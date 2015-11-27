@@ -5,6 +5,15 @@
 
 A role for managing authorized keys.
 
+Following roles where designed to neatly work together with this role:
+
+- [user](https://galaxy.ansible.com/list#/roles/4730), for managing users.
+- [sudo](https://galaxy.ansible.com/list#/roles/4765), for managing sudo
+  rights.
+
+The [management-user](https://galaxy.ansible.com/list#/roles/4793) role
+combines all these roles in one easy to use role.
+
 ## Requirements
 
 - Hosts should be bootstrapped for ansible usage (have python,...)
