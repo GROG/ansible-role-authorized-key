@@ -96,7 +96,7 @@ authorized_key_list_group:
 
 All assistance, changes or ideas [welcome](https://github.com/GROG/ansible-role-authorized-key/issues)!
 
-## Author Information
+## Author
 
 By [G. Roggemans](https://github.com/groggemans)
 
