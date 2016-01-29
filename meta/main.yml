@@ -3,7 +3,7 @@ galaxy_info:
   author: G. Roggemans
   description: A role for managing authorized keys.
   company: GROG
-  license: LGPLv3
+  license: MIT
   min_ansible_version: 1.9
   platforms:
   - name: GenericUNIX

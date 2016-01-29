@@ -92,10 +92,6 @@ authorized_key_list_group:
       - key: "{{ lookup('file', '/home/john/.ssh/id_rsa.pub') }}"
 ```
 
-## License
-
-LGPLv3
-
 ## Contributing
 
 All assistance, changes or ideas [welcome](https://github.com/GROG/ansible-role-authorized-key/issues)!
@@ -103,3 +99,6 @@ All assistance, changes or ideas [welcome](https://github.com/GROG/ansible-role-
 ## Author Information
 
 By [G. Roggemans](https://github.com/groggemans)
+
+## License
+MIT
