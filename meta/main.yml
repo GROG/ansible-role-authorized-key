@@ -15,6 +15,9 @@ galaxy_info:
   - name: GenericLinux
     versions:
     - all
-  categories:
+  galaxy_tags:
+  - ssh
+  - key
+  - authorized
   - system
 dependencies: []
