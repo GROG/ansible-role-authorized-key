@@ -1,18 +1,17 @@
 # Authorized-key
 
-[![Ansible Galaxy](http://img.shields.io/badge/galaxy-GROG.authorized--key-660198.svg?style=flat)](https://galaxy.ansible.com/GROG/authorized-key)
-[![Build Status](https://travis-ci.org/GROG/ansible-role-authorized-key.svg?branch=master)](https://travis-ci.org/GROG/ansible-role-authorized-key)
+[![Ansible Galaxy][galaxy_image]][galaxy_link]
+[![Build Status][travis_image]][travis_link]
 
 A role for managing authorized keys.
 
 Following roles where designed to neatly work together with this role:
 
-- [user](https://galaxy.ansible.com/list#/roles/4730), for managing users.
-- [sudo](https://galaxy.ansible.com/list#/roles/4765), for managing sudo
-  rights.
+- [user][grog.user], for managing users.
+- [sudo][grog.sudo], for managing sudo rights.
 
-The [management-user](https://galaxy.ansible.com/list#/roles/4793) role
-combines all these roles in one easy to use role.
+The [management-user][grog.management-user] role combines all these roles in
+one easy to use role.
 
 ## Requirements
 
@@ -93,12 +92,22 @@ authorized_key_list_group:
 ```
 
 ## Contributing
-
-All assistance, changes or ideas [welcome](https://github.com/GROG/ansible-role-authorized-key/issues)!
+All assistance, changes or ideas [welcome][issues]!
 
 ## Author
-
-By [G. Roggemans](https://github.com/groggemans)
+By [G. Roggemans][groggemans]
 
 ## License
 MIT
+
+[galaxy_image]:         https://img.shields.io/badge/galaxy-GROG.authorized--key-660198.svg?style=flat
+[galaxy_link]:          https://galaxy.ansible.com/GROG/authorized-key
+[travis_image]:         https://travis-ci.org/GROG/ansible-role-authorized-key.svg?branch=master
+[travis_link]:          https://travis-ci.org/GROG/ansible-role-authorized-key
+
+[grog.user]:            https://galaxy.ansible.com/GROG/user
+[grog.sudo]:            https://galaxy.ansible.com/GROG/sudo
+[grog.management-user]: https://galaxy.ansible.com/GROG/management-user
+
+[issues]:               https://github.com/GROG/ansible-role-authorized-key/issues
+[groggemans]:           https://github.com/groggemans
