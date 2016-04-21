@@ -18,6 +18,7 @@ one easy to use role.
 ## Requirements
 
 - Hosts should be bootstrapped for ansible usage (have python,...)
+- Root privileges, eg `become: yes`
 
 ## Role Variables
 
@@ -80,7 +81,7 @@ None.
 ---
 - hosts: servers
   roles:
-  - { role: GROG.authorized-key }
+  - { role: GROG.authorized-key, become: yes }
 ```
 
 Inside `group_vars/servers.yml`:
