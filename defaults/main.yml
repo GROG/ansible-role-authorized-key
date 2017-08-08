@@ -1,12 +1,12 @@
 ---
 
-# List of users and there keys
+# List of users and their keys
 authorized_key_list: []
 
-# List of users and there keys
+# List of users and their keys
 authorized_key_list_host: []
 
-# List of users and there keys
+# List of users and their keys
 authorized_key_list_group: []
 
 # Default value for exclusive
