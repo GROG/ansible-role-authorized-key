@@ -29,11 +29,11 @@ script:
   - ansible-playbook tests/test.yml -i tests/inventory --syntax-check
 
   # Run the role/playbook with ansible-playbook.
-  - ansible-playbook tests/test.yml -i tests/inventory --connection=local --sudo
+  - ansible-playbook tests/test.yml -i tests/inventory --connection=local --become
 
   # Run the role/playbook again, checking to make sure it's idempotent.
   - >
-    ansible-playbook tests/test.yml -i tests/inventory --connection=local --sudo
+    ansible-playbook tests/test.yml -i tests/inventory --connection=local --become
     | grep -q 'changed=0.*failed=0'
     && (echo 'Idempotence test: pass' && exit 0)
     || (echo 'Idempotence test: fail' && exit 1)
